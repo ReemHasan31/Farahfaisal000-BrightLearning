@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Bright learning",
+    "slug": "bright-learning",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.farah.aiassistant"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "OPENAI_KEY": "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"
+    }
+  }
+}
